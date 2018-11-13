@@ -1,13 +1,31 @@
 
 //arrays
 
-var wordsToguess = ["Hermionie","Harry Potter", "Voldemort", "Snape" "Horcrux", "Gobblet", "Quidditch", "Prefect", "Hogwarts", "Ridiculous", "Wormtail", "Hagrid", "Dumbeldor", "Wizards Cup", "Ron Weasley"];
-var guessedLetters = [""];
+var wordsToguess = ["Hermionie","Harry Potter", "Voldemort", "Snape", "Horcrux", "Gobblet", "Quidditch", "Prefect", "Hogwarts", "Ridiculous", "Wormtail", "Hagrid", "Dumbeldor", "Wizards Cup", "Ron Weasley"];
+var wordChoser = [Math.floor(Math.random * wordsToguess.length)];
 
-/* Press any key to start 
+// Press any key to start 
 
-Need onkeyup event and listener to start game with any key
-*/
+    
+//Need onkeyup event and listener to start game with any key
+document.onkeyup = function(event){
+
+    console.log("What am I doing?!")
+    
+    var start = event.key;  
+    
+    function chooseWord(){
+
+        var wordChosen = [];
+
+        
+
+
+    }
+        
+}
+
+
 
 // Choose random word from wordsToguess array
 
